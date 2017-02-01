@@ -1,0 +1,56 @@
+﻿/*
+   New Perspectives on HTML and CSS
+   Tutorial 3
+   Case Problem 2
+
+   Mountain Wheels Text and Color Style
+   Author: Stephan Cattermole
+   Date: 2.1.17
+
+   Filename:         mw_layout.css
+   Supporting Files: none
+
+*/
+
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+#articleheader {
+  font: 18px normal;
+  letter-spacing: 7px;
+  text-align: center;
+}
+
+nav ul {
+  background-color: rgb(125, 120, 89);
+  line-height: 3em;
+  list-style-type: none;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background-color: rgb(131, 121, 36);
+  list-style-image: url(wheelmarker.png);
+  color: rgb(255, 255, 255);
+}
+
+nav ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+#leftsection p {
+  font-size: 22px;
+}
+
+#firstpar:first-line {
+  text-transform: uppercase;
+}
+
+blockqoute {
+  background-color: rgb(131, 121, 36);
+}
